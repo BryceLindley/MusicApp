@@ -1,0 +1,21 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<Button
+    android:layout_alignParentBottom="true"
+    android:text="Back Button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="backButton"
+    android:id="@+id/backButton" />
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/list"
+        style="@style/compactMusicViews"
+        tools:context=".sixties"/>
+
+</RelativeLayout>
